@@ -6,7 +6,7 @@
     <title>Login</title>
 </head>
 <body>
-    <form action="contato.php" method="GET">
+    <form action="valida.php" method="POST">
         <div class="form-group text-left">
             <label for="nome" >Nome</label>
             <input type="text" class="form-control" name="nome" id="nome">
@@ -16,7 +16,7 @@
             <input type="password" class="form-control" name="senha" id="senha">
         </div>
         <div>
-            <button type="submit" class="btn btn-lg btn-outline-success mt-3">Cadastrar</button>
+            <button type="submit" class="btn btn-lg btn-outline-success mt-3">Logar</button>
         </div>
     </form>
 </body>

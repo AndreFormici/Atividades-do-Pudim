@@ -6,7 +6,7 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <form action="login.php" method="GET">
+    <form action="cadastrar.php" method="POST">
         <div class="form-group text-left">
             <label for="nome" >Nome</label>
             <input type="text" class="form-control" name="nome" id="nome">
